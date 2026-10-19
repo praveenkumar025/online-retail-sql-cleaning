@@ -2,13 +2,13 @@
 
 This project demonstrates an end-to-end data cleaning pipeline using **PostgreSQL** on a public transactional retail dataset.
 
-## 📁 Repository Structure
+##  Repository Structure
 - `data_cleaning.sql` : The SQL script containing all data cleaning and transformation queries.
 - `cleaned_online_retail.csv` : The final processed and analysis-ready dataset.
 
 ---
 
-## 🔍 Data Quality Issues Addressed
+##  Data Quality Issues Addressed
 
 1. **Incorrect Data Types:** 
    - Converted text-based dates into proper `TIMESTAMP` format using custom parsing (`TO_TIMESTAMP`).
@@ -24,6 +24,6 @@ This project demonstrates an end-to-end data cleaning pipeline using **PostgreSQ
 
 ---
 
-## 🛠️ Tools Used
+##  Tools Used
 - **PostgreSQL / pgAdmin 4**: For database management, data staging, and SQL-based transformations.
 - **SQL**: For data type casting, text manipulation, and conditional filtering.
